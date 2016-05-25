@@ -1,0 +1,11 @@
+id: rhcs-generic-loan
+title: Cloud JBoss BPM Generic Loan Demo
+github_repo_url: https://github.com/redhatdemocentral/rhcs-generic-loan-demo
+technologies:
+  - Red Hat CDK
+  - JBoss BPM Suite
+  - OpenShift Enterprise  
+summary: Project to automate the installation of JBoss BPM Generic Loan demo using the Red Hat Container Development Kit (CDK) for application development activities on OpenShift.
+level: Beginner
+product: rhcs
+author: Dan-Grigore Pupaza, Andrew Block, Alexandre Porcelli, Duncan Doyle, Eric D. Schabell
