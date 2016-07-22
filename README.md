@@ -69,7 +69,9 @@ Released versions
 -----------------
 See the tagged releases for the following versions of the product:
 
-- v1.0 - JBoss BPM Suite 6.3.0 on JBoss EAP 6.4.7 with generic loan demo t installed on Red Hat CDK using OpenShift Enterprise image.
+- v1.1 - JBoss BPM Suite 6.3.0 on JBoss EAP 6.4.7 with generic loan demo installed on Red Hat CDK 2.1.
+
+- v1.0 - JBoss BPM Suite 6.3.0 on JBoss EAP 6.4.7 with generic loan demo installed on Red Hat CDK using OpenShift Enterprise image.
 
 ![Loan Process](https://github.com/redhatdemocentral/rhcs-generic-loan-demo/blob/master/docs/demo-images/rhcs-generic-loan-demo.png?raw=true)
 

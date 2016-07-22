@@ -7,6 +7,8 @@ set AUTHORS=Dan-Grigore Pupaz, Andrew Block,
 set AUTHORS2=Alexandre Porcelli, Eric D. Schabell, Duncan Doyle
 set PROJECT=git@github.com:redhatdemocentral/rhcs-generic-loan-demo.git
 set SRC_DIR=%PROJECT_HOME%installs
+set OPENSHIFT_USER=openshift-dev
+set OPENSHIFT_PWD=devel
 set BPMS=jboss-bpmsuite-6.3.0.GA-installer.jar
 set EAP=jboss-eap-6.4.0-installer.jar
 set EAP_PATCH=jboss-eap-6.4.7-patch.zip
@@ -81,6 +83,11 @@ if exist %SRC_DIR%\%BPMS% (
 
 echo OpenShift commandline tooling is installed...
 echo.
+echo Loging into OSE as %OPENSHIFT_USER%...
+echo.
+call oc login 10.1.2.2:8443 --password="%OPENSHIFT_PWD%" --username="%OPENSHIFT_USER%"
+
+
 echo Loging into OSE...
 echo.
 call oc login 10.1.2.2:8443 --password=admin --username=admin
