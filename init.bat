@@ -83,14 +83,9 @@ if exist %SRC_DIR%\%BPMS% (
 
 echo OpenShift commandline tooling is installed...
 echo.
-echo Loging into OSE as %OPENSHIFT_USER%...
+echo Logging in to OSE as %OPENSHIFT_USER%...
 echo.
 call oc login 10.1.2.2:8443 --password="%OPENSHIFT_PWD%" --username="%OPENSHIFT_USER%"
-
-
-echo Loging into OSE...
-echo.
-call oc login 10.1.2.2:8443 --password=admin --username=admin
 
 if not "%ERRORLEVEL%" == "0" (
   echo.
