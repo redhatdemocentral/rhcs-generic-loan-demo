@@ -106,6 +106,9 @@ if not "%ERRORLEVEL%" == "0" (
 	GOTO :EOF
 )
 
+REM need to wait a bit for new build to finish with developer image.
+timeout 3 /nobreak
+
 echo.
 echo Importing developer image...
 echo.
@@ -121,7 +124,7 @@ if not "%ERRORLEVEL%" == "0" (
 echo.
 echo Starting a build, this takes some time to upload all of the product sources for build...
 echo.
-call oc start-build rhcs-generic-loan-demo --from-dir=. --follow=true
+call oc start-build rhcs-generic-loan-demo --from-dir=. --follow=true --wait=true
 
 if not "%ERRORLEVEL%" == "0" (
   echo.
