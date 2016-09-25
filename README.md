@@ -69,7 +69,7 @@ Released versions
 -----------------
 See the tagged releases for the following versions of the product:
 
-- v1.1 - JBoss BPM Suite 6.3.0 on JBoss EAP 6.4.7 with generic loan demo installed on Red Hat CDK 2.1.
+- v1.1 - JBoss BPM Suite 6.3.0 on JBoss EAP 6.4.7 with generic loan demo installed on Red Hat CDK.
 
 - v1.0 - JBoss BPM Suite 6.3.0 on JBoss EAP 6.4.7 with generic loan demo installed on Red Hat CDK using OpenShift Enterprise image.
 
