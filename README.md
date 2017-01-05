@@ -79,3 +79,5 @@ See the tagged releases for the following versions of the product:
 
 ![Loan Build](https://github.com/redhatdemocentral/rhcs-generic-loan-demo/blob/master/docs/demo-images/rhcs-generic-loan-build.png?raw=true)
 
+![Cloud Suite](https://github.com/redhatdemocentral/rhcs-generic-loan-demo/blob/master/docs/demo-images/rhcs-arch.png?raw=true)
+
