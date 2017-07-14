@@ -28,15 +28,29 @@ Install on Red Hat CDK OpenShift Enterprise image
 
 Notes
 -----
+This project can be installed on any OpenShift platform, such as OpenShift Container Platform.
+It's possible to install it on any available installation by pointing this installer to an OpenShift IP address:
+
+```
+  $ ./init.sh IP
+```
+
+-----
+
+If for any reason the installation breaks or you want a new installation, just remove the project entry in the OpenShift console and
+re-run the installation.
+
 Should your local network DNS not handle the resolution of the above address, giving you page not found errors, you can apply the
 following to your local hosts file:
 
 ```
 $ sudo vi /etc/hosts
 
-# add host for CDK demo resolution.
-10.1.2.2   rhcs-genericloan-demo.10.1.2.2.xip.io    rhcs-genericloan-demo.10.1.2.2.xip.io
+# add host for OCP demo resulution
+192.168.99.100   rhcs-genericloan-demo.192.168.99.100.xip.io
 ```
+
+----
 
 The demo covers the following aspects:
  - Business process definition
@@ -55,6 +69,8 @@ The following values can be used (in process form) for testing:
 
 Any user tasks have automated task reassignment back into the group should a task not complete within a minute. Note that the entire demo is running default in memory, restart server, lose your process instances, data, monitoring history. 
 
+-----
+
 
 Supporting Articles
 -------------------
@@ -68,6 +84,10 @@ Supporting Articles
 Released versions
 -----------------
 See the tagged releases for the following versions of the product:
+
+- v1.3 - JBoss BPM Suite 6.4.0 and JBoss EAP 7.0.0 with generic loan demo installed on any given OpenShift installation and loading mulitple projects.
+
+- v1.2 - JBoss BPM Suite 6.3.0 on JBoss EAP 6.4.7 with generic loan demo running on any given OpenShift installation and port forwarding for git repo access configured.
 
 - v1.1 - JBoss BPM Suite 6.3.0 on JBoss EAP 6.4.7 with generic loan demo installed on Red Hat CDK.
 
