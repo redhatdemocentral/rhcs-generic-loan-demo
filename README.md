@@ -76,9 +76,9 @@ Supporting Articles
 -------------------
 - [Painless Containerized JBoss Generic Loan Processing on OpenShift](http://www.schabell.org/2016/05/painless-containerized-jboss-generic-loan-processing-openshift.html)
 
-- [Red Hat JBoss BPM Suite - Generic Loan Demo with Signal Event] (http://www.schabell.org/2014/05/redhat-jboss-bpmsuite-generic-loan-signal-event.html)
+- [Red Hat JBoss BPM Suite - Generic Loan Demo with Signal Event](http://www.schabell.org/2014/05/redhat-jboss-bpmsuite-generic-loan-signal-event.html)
 
-- [Red Hat JBoss BPM Suite - Automated Lending with a Generic Loan Demo] (http://www.schabell.org/2013/11/jboss-bpm-suite-automated-lending-generic-loan-demo.html)
+- [Red Hat JBoss BPM Suite - Automated Lending with a Generic Loan Demo](http://www.schabell.org/2013/11/jboss-bpm-suite-automated-lending-generic-loan-demo.html)
 
 
 Released versions
