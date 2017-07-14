@@ -11,15 +11,16 @@ Install JBoss Rewards on OpenShift
 ----------------------------------
 1. First ensure you have an OpenShift container based installation, such as one of the followling installed first:
 
-  - [OCP Install Demo](https://github.com/redhatdemocentral/ocp-install-demo)
+    - [OCP Install Demo](https://github.com/redhatdemocentral/ocp-install-demo)
 
-  - or your own OpenShift installation.
+    - or your own OpenShift installation.
 
 2. [Download and unzip this demo.](https://github.com/redhatdemocentral/rhcs-rewards-demo/archive/master.zip)
 
 3. Download JBoss EAP & JBoss BPM Suite, add to installs directory (see installs/README).
 
 4. Run 'init.sh' or 'init.bat' file. 'init.bat' must be run with Administrative privileges:
+
 ```
    # The installation needs to be pointed to a running version
    # of OpenShift, so pass an IP address such as:
