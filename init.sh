@@ -205,16 +205,16 @@ if [ "$?" -ne "0" ]; then
 fi
 
 echo
-echo "===================================================================="
-echo "=                                                                  ="
-echo "=  Login to start exploring the Generic Loan project:              ="
-echo "=                                                                  ="
+echo "=========================================================================="
+echo "=                                                                        ="
+echo "=  Login to start exploring the Generic Loan project:                    ="
+echo "=                                                                        ="
 echo "=  http://$OCP_APP.$HOST_IP.xip.io/business-central   ="
-echo "=                                                                  ="
-echo "=  [ u:erics / p:jbossbpm1! ]                                      ="
-echo "=                                                                  ="
-echo "=  Note: it takes a few minutes to expose the service...           ="
-echo "=                                                                  ="
-echo "===================================================================="
+echo "=                                                                        ="
+echo "=  [ u:erics / p:jbossbpm1! ]                                            ="
+echo "=                                                                        ="
+echo "=  Note: it takes a few minutes to expose the service...                 ="
+echo "=                                                                        ="
+echo "=========================================================================="
 echo
 
