@@ -116,6 +116,8 @@ To clone a repository in the running container, the following actions would need
 
 Supporting Articles
 -------------------
+- [How to Optimize Existing IT by Modernizing Financial Processes](http://www.schabell.org/2017/07/how-to-optimize-existing-it-modernizing-financial-processes.html)
+
 - [Painless Containerized JBoss Generic Loan Processing on OpenShift](http://www.schabell.org/2016/05/painless-containerized-jboss-generic-loan-processing-openshift.html)
 
 - [Red Hat JBoss BPM Suite - Generic Loan Demo with Signal Event](http://www.schabell.org/2014/05/redhat-jboss-bpmsuite-generic-loan-signal-event.html)
