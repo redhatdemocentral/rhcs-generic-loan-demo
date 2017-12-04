@@ -39,6 +39,18 @@ script):
 Notes
 -----
 
+Should your local network DNS not handle the resolution of the above address, giving you page not found errors, you can apply the
+following to your local hosts file:
+
+```
+$ sudo vi /etc/hosts
+
+# add host for OCP demo resulution
+192.168.99.100   rhcs-genericloan-demo-appdev-in-cloud.192.168.99.100.nip.io 
+```
+
+-----
+
 If for any reason the installation breaks or you want a new installation, just remove the project entry in the OpenShift console and
 re-run the installation.
 
