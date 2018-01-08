@@ -1,14 +1,14 @@
-App Dev Cloud with JBoss Generic Loan Demo
-==========================================
-This demo is to install a financial Generic Loan application demo in the Cloud based on leveraging the OpenShift Container Platform
+App Dev Cloud with Financial Services Generic Loan Demo
+=======================================================
+This demo is to install a financial services generic loan application in the Cloud based on leveraging the OpenShift Container Platform
 (OCP). It delivers a fully functioning Generic Loan example containerized on OCP.
 
 This demo is a financial simulation for getting a long and features BPM with human task integration,
 rule integration and an example use of a signal.
 
 
-Install JBoss Rewards on OpenShift
-----------------------------------
+Install FSI Generic Loan on OpenShift
+--------------------------------------
 1. First ensure you have an OpenShift container based installation, such as one of the followling installed first:
 
     - [OCP Install Demo](https://github.com/redhatdemocentral/ocp-install-demo)
