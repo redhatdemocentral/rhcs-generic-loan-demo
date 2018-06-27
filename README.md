@@ -1,3 +1,6 @@
+Update: June 2018 moved to [Gitlab](https://gitlab.com/redhatdemocentral/rhcs-generic-loan-demo).
+
+
 App Dev Cloud with Financial Services Generic Loan Demo
 =======================================================
 This demo is to install a financial services generic loan application in the Cloud based on leveraging the OpenShift Container Platform
